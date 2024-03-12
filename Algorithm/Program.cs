@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Board board = new Board();
+            Board2 board = new Board2();
             board.Initialize();
 
 

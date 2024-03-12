@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Board.cs" />
+    <Compile Remove="Board2.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Board.cs" />
+    <None Include="Board2.cs" />
+    <None Include="Program.cs" />
+  </ItemGroup>
+
 </Project>
