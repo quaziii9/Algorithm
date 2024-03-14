@@ -7,4 +7,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Graph\Program.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="StackQue\Program.cs" />
+    <Compile Remove="Tree\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Graph\Program.cs" />
+    <None Include="StackQue\Program.cs" />
+    <None Include="Tree\Program.cs" />
+  </ItemGroup>
+
 </Project>

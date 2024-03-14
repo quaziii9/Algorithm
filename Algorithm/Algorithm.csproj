@@ -11,12 +11,23 @@
     <Compile Remove="Board.cs" />
     <Compile Remove="Board2.cs" />
     <Compile Remove="Program.cs" />
+    <Compile Remove="Section1\Board.cs" />
+    <Compile Remove="Section1\Board2.cs" />
+    <Compile Remove="Section1\Program.cs" />
+    <Compile Remove="Section2\Board.cs" />
+    <Compile Remove="Section2\Player.cs" />
+    <Compile Remove="Section2\Program.cs" />
+    <Compile Remove="StackQue\Program.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Board.cs" />
-    <None Include="Board2.cs" />
-    <None Include="Program.cs" />
+    <None Include="Section1\Board.cs" />
+    <None Include="Section1\Board2.cs" />
+    <None Include="Section1\Program.cs" />
+    <None Include="Section2\Board.cs" />
+    <None Include="Section2\Player.cs" />
+    <None Include="Section2\Program.cs" />
+    <None Include="StackQue\Program.cs" />
   </ItemGroup>
 
 </Project>
